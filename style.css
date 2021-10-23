@@ -13,7 +13,7 @@ body {
 }
 
 div.container {
-    margin: auto; margin-top: 45px;
+    margin: auto; margin-top: 70px;
     width: 375px; height: 570px;
     background-color: #fff;
     /* border: 1px solid black; */
@@ -109,6 +109,7 @@ a.change-btn:hover{
 
 .procc-btn:hover{
     background-color: hsl(224, 23%, 55%);
+    transition: 0.8s;
 }
 
 .cancel {
