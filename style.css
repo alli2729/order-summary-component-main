@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0%;
+}
+
+body {
+    background-image: url("pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+div.container {
+    margin: auto; margin-top: 45px;
+    width: 375px; height: 570px;
+    background-color: #fff;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px hsla(223, 47%, 23%, 0.137);
+}
+
+img.hero {
+    width: 375px; height: max-content;
+    border-radius: 20px 20px 0 0 ;
+}
+
+h1 {
+    margin: 20px 0 20px 0;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+    text-align: center;
+    color: hsl(223, 47%, 23%);
+}
+
+div.paragraph{
+    margin: auto;
+    width: 74%;
+}
+
+p.p1 {
+    margin: 0 0 20px 0;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+}
+
+div.plan {
+    display: flex;
+    align-items: center;
+    margin: auto; margin-bottom: 20px;
+    width: 74%; height: 80px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+}
+
+.icon {
+    margin: 0 20px 0 20px;
+}
+
+.p2 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: hsl(223, 47%, 23%);
+}
+
+.p3 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+}
+
+a.change-btn {
+    margin: 0 0 0 50px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: hsl(245, 75%, 52%);
+}
+a.change-btn:hover{
+    color: hsl(224, 23%, 55%);
+}
+
+.buttuns {
+    margin: auto;
+    width: 74%;
+}
+
+.procc-btn {
+    margin: 0 0 20px 0;
+    width: 100%; height: 40px;
+    border: 0; border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.procc-btn:hover{
+    background-color: hsl(224, 23%, 55%);
+}
+
+.cancel {
+    margin: 0 0 20px 0;
+    width: 100%; height: 40px;
+    border: 0; border-radius: 10px;
+    color: hsl(224, 23%, 55%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cancel-btn:visited {
+    color: hsl(224, 23%, 55%);
+}
+.cancel-btn:hover {
+    color: hsl(223, 47%, 23%);
+}
